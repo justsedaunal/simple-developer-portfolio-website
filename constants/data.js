@@ -1,6 +1,6 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
+  githubUsername: "justsedaunal",
+  name: "Seda Unal",
   designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
   email: "manuarorawork@gmail.com",
