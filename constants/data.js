@@ -83,6 +83,7 @@ const userData = {
     github: "https://github.com/justsedaunal",
     facebook: "https://facebook.com/",
     peerlist: "https://peerlist.io/manuarora",
+    medium:"https://medium.com/@justsedaunal"
   },
 };
 
