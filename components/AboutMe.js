@@ -66,7 +66,7 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
+              {/* <div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData.socialLinks.peerlist}
                   className="flex flex-row items-center space-x-4 group"
@@ -77,8 +77,8 @@ export default function AboutMe() {
                     Peerlist
                   </div>
                 </a>
-              </div>
-              <div className="flex flex-row justify-start items-center ">
+              </div> */}
+              {/* <div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
@@ -89,7 +89,7 @@ export default function AboutMe() {
                     Facebook
                   </div>
                 </a>
-              </div>
+              </div> */}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.twitter}
@@ -159,8 +159,20 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              {/* <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                className="h-20 w-20 mx-4 my-4"
+              /> */}
+              <img
+                src="https://d2nir1j4sou8ez.cloudfront.net/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://nuxt.com/assets/design-kit/logo/icon-green.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -187,22 +199,19 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              {/* <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
-              <img
+              /> */}
+              {/* <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
+              /> */}
             </div>
           </div>
         </div>
