@@ -19,6 +19,7 @@ export default function Contact() {
               {/* <p className="font-light text-base text-gray-200 mt-2">
                 Fill in the details and I'll get back to you as soon as I can.
               </p> */}
+              
             </header>
             <div className="icons-container inline-flex flex-col my-20">
               {/* <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
@@ -39,6 +40,7 @@ export default function Contact() {
                   {userData.phone}
                 </p>
               </div> */}
+              <a href="mailto:justsedaunal@outlook.com" >
               <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -54,6 +56,9 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
+
+              </a>
+           
               <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -137,6 +142,7 @@ export default function Contact() {
                 </svg>
               </a>
             </div>
+            
           </div>
           {/* <form className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">

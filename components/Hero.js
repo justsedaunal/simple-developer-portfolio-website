@@ -26,17 +26,17 @@ export default function Hero() {
               Learner.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={colors[3]}>
+          {/* <RainbowHighlight color={colors[3]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Sharing.
             </h1>
-          </RainbowHighlight>
+          </RainbowHighlight> */}
         </RoughNotationGroup>
       </div>
       {/* Image container */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-3/4 ">
-          <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
+          <img src={userData.avatarUrl} alt="avatar" className=" shadow" style={{ borderRadius: '222px' }}/>
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg
