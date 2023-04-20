@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
+import axios from "axios";
 
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState(repositories);
-
+  
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">

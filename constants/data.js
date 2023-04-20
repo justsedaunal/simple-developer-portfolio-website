@@ -6,6 +6,7 @@ const userData = {
   email: "justsedaunal@outlook.com",
   phone: "+91 9587738861",
   address: "Based on Turkey",
+  
   projects: [
     {
       title: "Doctors Digital Market",
@@ -25,12 +26,25 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a frontend developer that loves building products and web applications that impact millions of lives",
+      "I'm a frontend developer working as a freelancer based on Turkey and looking for a remote job",
     description: [``, ``, ``],
-    currentProject: "Next.JS",
+    currentProject: "CV",
     currentProjectUrl: "https://nextjs.org/",
   },
   experience: [
+    {
+      title: "Frontend Developer Mentee ",
+      company: "Women Who Code/London ( Mentorship Programme )",
+      year: "2023",
+      companyLink: "https://wwcl.carrd.co/",
+      desc: `  
+      The mentorship programme will last from April to November.
+      1. Schedule an initial meeting to discuss expectations.
+      2. Define specific and measurable goals for the mentorship relationship.
+      3. Develop an action plan to achieve those goals.
+      4. Schedule regular check-ins to monitor progress and adjust the action plan as needed.Women Who Code Mentorship Programme Mentee : The mentorship programme will last from April to November. 1. Schedule an initial meeting to discuss expectations. 2. Define specific and measurable goals for the mentorship relationship. 3. Develop an action plan to achieve those goals. 4. Schedule regular check-ins to monitor progress and adjust the action plan as needed.
+      Skills: Redux · Jira · Git · Next.js · GitHub · React.js`,
+    },
     {
       title: "Frontend Developer Alumni",
       company: "Re:Coded (Front End Development Bootcamp (React))",
@@ -83,7 +97,7 @@ const userData = {
     github: "https://github.com/justsedaunal",
     facebook: "https://facebook.com/",
     peerlist: "https://peerlist.io/manuarora",
-    medium:"https://medium.com/@justsedaunal"
+    medium: "https://medium.com/@justsedaunal",
   },
 };
 
